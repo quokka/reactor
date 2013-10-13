@@ -7,7 +7,7 @@ Reactor is a responsive parent theme for WordPress. That means that it can be us
 Changes to this branch
 =======
 
-#### OK, I love Reactor a lot but didn't like the fact that the theme originaly has a portfolio built in. This is my release of the theme, without the portfolio post type..
+I love Reactor a lot but didn't like the fact that the theme originaly has a portfolio built in. This is my release of the theme, without the portfolio post type..
 
 
 Original repository
