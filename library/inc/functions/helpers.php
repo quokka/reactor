@@ -354,10 +354,6 @@ function reactor_single_post_class( $classes ) {
 	if ( is_single() ) {
 		$classes[] = 'single';
 	}
-	if ( is_single() && 'portfolio' == get_post_type()) {
-		$classes[]  = 'single';
-		$classes[] .= 'single-portfolio';
-	}
 	return $classes;
 }
 
@@ -375,9 +371,6 @@ function reactor_topbar_body_class( $classes ) {
 	}
 	if ( is_page_template('page-templates/news-page.php') ) {
 		$classes[] = 'news-page';
-	}
-	if ( is_page_template('page-templates/portfolio.php') ) {
-		$classes[] = 'portfolio';
 	}
 	if ( is_page_template('page-templates/contact.php') ) {
 		$classes[] = 'contact-page';

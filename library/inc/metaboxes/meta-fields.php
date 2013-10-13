@@ -197,5 +197,5 @@
  */
 //$sample_box = new Custom_Add_Meta_Box( '_sample_box', 'Sample Box', 'post', 'normal', 'high', $sample_fields );
 $slide_meta = new Reactor_Add_Meta_Box( 'slide_meta', __('Slide Link', 'reactor'), 'slide', 'normal', 'high', $slide_fields );
-$layout_meta = new Reactor_Add_Meta_Box( 'layout_meta', __('Layout', 'reactor'), array('post', 'page', 'portfolio'), 'side', 'default', $layout_fields );
+$layout_meta = new Reactor_Add_Meta_Box( 'layout_meta', __('Layout', 'reactor'), array('post', 'page'), 'side', 'default', $layout_fields );
 

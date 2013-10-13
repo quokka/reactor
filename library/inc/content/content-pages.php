@@ -67,12 +67,7 @@ function reactor_do_page_links() {
 	elseif ( is_page_template('page-templates/news-page.php') && current_theme_supports('reactor-page-links') ) {
 		reactor_page_links( array('query' => 'newspage_query', 'type' => $pagination_type) );
 	}
-	elseif ( is_page_template('page-templates/portfolio.php') && current_theme_supports('reactor-page-links') ) {
-		$filter_type = reactor_option('portfolio_filter_type', 'jquery');
-		//if ( 'jquery' != $filter_type ) {
-			reactor_page_links( array('query' => 'portfolio_query', 'type' => $pagination_type) );
-		//}
-	} elseif ( current_theme_supports('reactor-page-links') ) {
+	elseif ( current_theme_supports('reactor-page-links') ) {
 		reactor_page_links( array('type' => $pagination_type) );
 	}
 }

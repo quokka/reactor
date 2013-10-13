@@ -36,12 +36,12 @@ function reactor_theme_setup() {
 	
 	add_theme_support(
 		'reactor-post-types',
-		array('slides', 'portfolio')
+		array('slides')
 	);
 	
 	add_theme_support(
 		'reactor-page-templates',
-		array('front-page', 'news-page', 'portfolio', 'contact')
+		array('front-page', 'news-page', 'contact')
 	);
 	
 	add_theme_support('reactor-backgrounds');

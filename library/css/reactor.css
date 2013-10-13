@@ -241,6 +241,7 @@ textarea {
 	margin-bottom:0
 }
 /* Portfolio ---------------------- */
+/*
 .single-portfolio {
 	margin:0 0 1.063em
 }
@@ -258,6 +259,7 @@ h2.entry-title.portfolio {
     opacity: 0;
     display: none
 }
+*/
 /* Comments ---------------------- */
 ol.commentlist {
 	margin:0;

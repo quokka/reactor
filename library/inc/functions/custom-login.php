@@ -1,7 +1,7 @@
 <?php
 /**
  * Customize Login
- * Portfolio, Slider and custom taxonomies
+ * Slider and custom taxonomies
  *
  * @package Reactor
  * @author Anthony Wilhelm (@awshout / anthonywilhelm.com)

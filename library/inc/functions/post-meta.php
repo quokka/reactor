@@ -31,9 +31,6 @@ if ( !function_exists('reactor_post_meta') ) {
 		 );
         $args = wp_parse_args( $args, $defaults );
 		
-		if ( 'portfolio' == get_post_type() ) {
-			$categories_list = get_the_term_list( $post->ID, 'portfolio-category', '', ', ', '' );
-		} else {
 			// $categories_list = get_the_category_list(', ');
 			$count = 0;
 			$categories_list = '';
@@ -55,13 +52,8 @@ if ( !function_exists('reactor_post_meta') ) {
 				}
 					
 			}
-		}
-		
-		if ( 'portfolio' == get_post_type() ) {
-			$tag_list = get_the_term_list( $post->ID, 'portfolio-tag', '', ', ', '' );
-		} else {
 			$tag_list = get_the_tag_list( '', ', ', '' );
-		}
+
 	
 		$date = sprintf('<a href="%1$s" title="%2$s" rel="bookmark"><time class="entry-date" datetime="%3$s" pubdate>%4$s</time></a>',
 			esc_url( get_month_link( get_the_time('Y'), get_the_time('m') ) ),
