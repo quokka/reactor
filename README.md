@@ -1,4 +1,4 @@
-Reactor (clone)
+Reactor fork (without portfolio)
 =======
 
 #### A powerful WordPress Framework generated using ZURB's Foundation
