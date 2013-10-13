@@ -5,7 +5,7 @@ Reactor (clone)
 Reactor is a responsive parent theme for WordPress. That means that it can be used as is or made to look and function however you like using a child theme. Reactor comes packed with a bunch of great features such as shortcodes, customizer settings, and page templates. It also includes all the fantastic scripts and styles found in Foundation 4 by ZURB.
 
 Changes to this branch
-=======
+-------------
 
 I love Reactor a lot but didn't like the fact that the theme originaly has a portfolio built in. This is my release of the theme, without the portfolio post type..
 
